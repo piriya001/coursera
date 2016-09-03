@@ -1,0 +1,78 @@
+/* HEADER */
+#header-nav {
+	background-color: #666699;
+	
+}
+.navbar-brand h1{
+	color: white;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list a {
+	text-align: center;
+	background-color: #f0f0f5;
+	border: 0.5px solid white;
+}
+/* END HEADER */
+
+
+
+/* HOME PAGE */
+#main-content {
+	margin-bottom: 15px;
+}
+.menu-section {
+	padding: 0px 15px 10px 15px;
+}
+#chicken-section {
+	background-color: #e6f9ff;
+}
+#beef-section {
+	background-color: #e6fff7;
+}
+#sushi-section {
+	background-color: #ffe6e6;
+}
+#chicken-section-content, #beef-section-content, #sushi-section-content {
+	margin-bottom: 0;
+}
+#section-end {
+	margin-bottom: 0;
+}
+#section-end a {
+	text-decoration: underline;
+}
+
+.menu-section h3 {
+	padding-top: 5px;
+}
+
+/* END HOME PAGE */
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	.menu-section{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+}
